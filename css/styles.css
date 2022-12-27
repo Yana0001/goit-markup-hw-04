@@ -49,6 +49,19 @@ img {
   display: block;
 }
 
+.overlay{
+  height: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image:linear-gradient(to right, 
+  rgba(47, 48, 58, 0.4),
+  rgba(47, 48, 58, 0.4)
+  ),
+  url(../images/hero.jpg);
+  background-repeat: no-repeat;
+}
+
 .container {
   width: 1200px;
   padding: 0 15px;
