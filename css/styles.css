@@ -315,7 +315,7 @@ img {
   height: 44px;
 }
 
-.socials-link:hover .team-socials-item{
+.socials-link:hover .team-socials-item {
   fill: #fff;
 }
 
@@ -333,7 +333,7 @@ img {
 
 /* Clients */
 
-.clients{
+.clients {
   padding-bottom: 94px;
 }
 
@@ -342,24 +342,25 @@ img {
   gap: 30px;
 }
 
-.clients-item{
-  fill: #AFB1B8;
+.clients-item {
+  fill: #afb1b8;
 }
 
-.clients-link{
-  border: 1px solid #AFB1B8;
+.clients-link {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
   width: 170px;
   height: 92px;
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.clients-link:hover{
-  border-color: var(--accent)
+.clients-link:hover {
+  border-color: var(--accent);
 }
 
-.clients-link:hover .clients-item{
+.clients-link:hover .clients-item {
   fill: var(--accent);
 }
 
