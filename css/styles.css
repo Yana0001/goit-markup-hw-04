@@ -367,9 +367,18 @@ img {
 /* Footer */
 
 footer {
+  display: flex;
+  justify-content: space-evenly;
   background-color: var(--dark-grey-color);
   padding-top: 60px;
   padding-bottom: 60px;
+  padding-left: 215px;
+}
+
+.footer-second-box {
+  position: absolute;
+  outline: solid #fff;
+  /* margin-left: 70px; */
 }
 
 .footer-logo {
@@ -424,4 +433,11 @@ footer a:focus {
 .contact li:nth-child(2) {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
