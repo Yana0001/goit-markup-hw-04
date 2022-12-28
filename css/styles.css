@@ -356,11 +356,13 @@ img {
   align-items: center;
 }
 
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus {
   border-color: var(--accent);
 }
 
-.clients-link:hover .clients-item {
+.clients-link:hover .clients-item,
+.clients-link:focus .clients-item {
   fill: var(--accent);
 }
 
@@ -463,10 +465,6 @@ footer a:focus {
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-}
-
-.footer-socials-link: {
-  background-color: #fff;
 }
 
 .footer-socials-link:hover,
