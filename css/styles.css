@@ -335,14 +335,20 @@ img {
 
 .clients-list {
   display: flex;
+  gap: 30px;
 }
 
-.clients-list li {
-  outline: solid black;
-}
-
-.clients-link {
+.clients-link-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid #AFB1B8 1px;
   width: 170px;
+  height: 92px;
+}
+
+.clients-item{
+  fill: #AFB1B8;
 }
 
 /* Footer */
