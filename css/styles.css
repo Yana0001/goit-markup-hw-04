@@ -315,6 +315,10 @@ img {
   height: 44px;
 }
 
+.socials-link:hover .team-socials-item{
+  fill: #fff;
+}
+
 .team-socials-link:hover,
 .team-socials-link:focus {
   background-color: #2196f3;
@@ -327,10 +331,6 @@ img {
   justify-content: center;
 }
 
-.team-socials-item:hover {
-  fill: #fff;
-}
-
 /* Clients */
 
 .clients-list {
@@ -338,17 +338,25 @@ img {
   gap: 30px;
 }
 
-.clients-link-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: solid #AFB1B8 1px;
-  width: 170px;
-  height: 92px;
-}
-
 .clients-item{
   fill: #AFB1B8;
+}
+
+.clients-link{
+  border: 1px solid #AFB1B8;
+  width: 170px;
+  height: 92px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-link:hover{
+  border-color: var(--accent)
+}
+
+.clients-link:hover .clients-item{
+  fill: var(--accent);
 }
 
 /* Footer */
